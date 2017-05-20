@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GradeBook_CSharp
 {
     public class GeneralGradeBook
-    { 
+    {
         public List<Exam> examList { get; set; }
 
         public GeneralGradeBook()
@@ -31,6 +31,18 @@ namespace GradeBook_CSharp
             set
             {
                 examList[x] = value;
+            }
+        }
+
+        public Exam Exam
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
             }
         }
     }
